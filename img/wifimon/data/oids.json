@@ -1,0 +1,74 @@
+{
+    "oids": {
+
+      "bsnAPTable": [
+        { "name": "bsnAPDot3MacAddress",     "oid": "1.3.6.1.4.1.14179.2.2.1.1.1" },
+        { "name": "bsnAPName",               "oid": "1.3.6.1.4.1.14179.2.2.1.1.3" },
+        { "name": "bsnAPModel",              "oid": "1.3.6.1.4.1.14179.2.2.1.1.16" },
+        { "name": "bsnAPSerialNumber",       "oid": "1.3.6.1.4.1.14179.2.2.1.1.17" },
+        { "name": "bsnApIpAddress",          "oid": "1.3.6.1.4.1.14179.2.2.1.1.19" },
+        { "name": "bsnAPEthernetMacAddress", "oid": "1.3.6.1.4.1.14179.2.2.1.1.33" },
+        { "name": "bsnAPLocation"           ,"oid": "1.3.6.1.4.1.14179.2.2.1.1.4"   }
+
+      ],
+
+      "bsnAPIfTable": [
+        { "name": "bsnApIfNoOfUsers",            "oid": "1.3.6.1.4.1.14179.2.2.2.1.15" },
+        { "name": "bsnAPIfPhyTxPowerControl",    "oid": "1.3.6.1.4.1.14179.2.2.2.1.5" },
+        { "name": "bsnAPIfPhyTxPowerLevel",      "oid": "1.3.6.1.4.1.14179.2.2.2.1.6" },
+        { "name": "bsnAPIfPhyChannelAssignment", "oid": "1.3.6.1.4.1.14179.2.2.2.1.3" },
+        { "name": "bsnAPIfPhyChannelNumber",     "oid": "1.3.6.1.4.1.14179.2.2.2.1.4" },
+        { "name": "bsnAPIfOperStatus",           "oid": "1.3.6.1.4.1.14179.2.2.2.1.12" }
+      ],
+
+      "bsnAPIfLoadTable": [
+        { "name": "bsnAPIfLoadChannelUtilization", "oid": "1.3.6.1.4.1.14179.2.2.13.1.3" }
+      ],
+
+
+
+      "ciscoLwappApTable": [
+        { "name": "cLApUpTime",                  "oid": "1.3.6.1.4.1.9.9.513.1.1.1.1.6" },
+        { "name": "cLLwappUpTime",              "oid": "1.3.6.1.4.1.9.9.513.1.1.1.1.7" },
+        { "name": "cLApAssocCount",             "oid": "1.3.6.1.4.1.9.9.513.1.1.1.1.51" },
+        { "name": "cLApAssociatedClientCount",  "oid": "1.3.6.1.4.1.9.9.513.1.1.1.1.54" },
+        { "name": "cLApActiveClientCount",      "oid": "1.3.6.1.4.1.9.9.513.1.1.1.1.72" }
+      ],
+
+      "ciscoLwappIfTable": [
+        { "name": "cLApEthernetIfLinkSpeed",    "oid": "1.3.6.1.4.1.9.9.513.1.2.2.1.11" }
+      ],
+
+      "bsnDot11EssTable": [
+        { "name": "bsnDot11EssSsid",                   "oid": "1.3.6.1.4.1.14179.2.1.1.1.2" },
+        { "name": "bsnDot11EssNumberOfMobileStations", "oid": "1.3.6.1.4.1.14179.2.1.1.1.38" }
+      ],
+
+      "bsnAPIfStatsTable": [
+        { "name": "bsnAPIfDBNoisePower", "oid": "1.3.6.1.4.1.14179.2.2.15.1.21" }
+      ],
+
+      "clcCdpApCacheTable": [
+
+        {"name": "clcCdpApCachePlatform",         "oid": "1.3.6.1.4.1.9.9.623.1.3.1.1.12"  },
+        {"name": "clcCdpApCacheNeighInterface",   "oid": "1.3.6.1.4.1.9.9.623.1.3.1.1.9"  },
+        {"name": "clcCdpApCacheNeighName",        "oid": "1.3.6.1.4.1.9.9.623.1.3.1.1.6"  },
+        {"name": "clcCdpApCacheNeighAddress",     "oid": "1.3.6.1.4.1.9.9.623.1.3.1.1.8"  }
+
+
+      ],
+
+      "bsnMobileStationTable": [
+
+        {"name": "bsnMobileStationEapType",       "oid": "1.3.6.1.4.1.14179.2.1.4.1.32"  },
+        {"name": "bsnMobileStationUserName",      "oid": "1.3.6.1.4.1.14179.2.1.4.1.3"  },
+        {"name": "bsnMobileStationAPMacAddr",     "oid": "1.3.6.1.4.1.14179.2.1.4.1.4"  },
+        {"name": "bsnMobileStationSsid",          "oid": "1.3.6.1.4.1.14179.2.1.4.1.7"  },
+        {"name": "bsnMobileStationProtocol",      "oid": "1.3.6.1.4.1.14179.2.1.4.1.25"  },
+        {"name": "bsnMobileStationProtocol",      "oid": "1.3.6.1.4.1.14179.2.1.4.1.25"  }
+
+      ]
+
+
+    }
+  }

@@ -1,0 +1,7 @@
+pysnmp @ git+https://github.com/etingof/pysnmp.git
+netaddr==0.8.0
+jsonschema==4.17.3
+pandas==2.0.0
+pyasyncore==1.0.3
+numpy==1.26.3
+pyasn1==0.5.1

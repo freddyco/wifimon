@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    image: wifimon_img
+    container_name: wifimon_app
+    build: .
+    volumes:
+      - ./output:/wifimon/output
+    environment:
+      snmp_port: 161
+      snmp_community: test_snmp
+      syslog_host: algo
+      syslog_port: 1514
+      nms_token: ${NMS_TOKEN}
+      TZ: "America/Santiago"
+      presenters: syslog
+
+
+
